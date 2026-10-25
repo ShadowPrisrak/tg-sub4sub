@@ -1,0 +1,15 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Кэш питона
+__pycache__/
+*.py[cod]
+
+# Сессии Telegram (САМОЕ ВАЖНОЕ!)
+*.session
+*.session-journal
+
+# Секреты
+config.py
+.env
